@@ -169,7 +169,7 @@ class PersonList
     }   
     public int Matayomsuksa4Count()
     {   
-        int countforgradeten = 0;        
+        int countforgradeelevenMatayomsuksafour = 0;        
         {
             foreach(Person person in personList)
             {
@@ -177,16 +177,16 @@ class PersonList
                 {
                     if(scholar.GetDegree() == "Matayomsuksa 4")
                     {
-                        countforgradeten ++;                    
+                        countforgradeelevenMatayomsuksafour ++;                    
                     }
                 }     
             }
-            return countforgradeten;
+            return countforgradeelevenMatayomsuksafour;
         }        
     }
     public int Matayomsuksa5Count()
     {   
-        int countforgradeeleven = 0;        
+        int countforgradeelevenMatayomsuksafive = 0;        
         {
             foreach(Person person in personList)
             {
@@ -194,16 +194,16 @@ class PersonList
                 {
                     if(scholar.GetDegree() == "Matayomsuksa 5")
                     {
-                        countforgradeeleven ++;                    
+                        countforgradeelevenMatayomsuksafive ++;                    
                     }
                 }     
             }
-            return countforgradeeleven;
+            return countforgradeelevenMatayomsuksafive;
         }       
     }
     public int Matayomsuksa6Count()
     {   
-        int countforgradetwelve = 0;        
+        int countforMatayomsuksasix = 0;        
         {
             foreach(Person person in personList)
             {
@@ -211,11 +211,11 @@ class PersonList
                 {
                     if(scholar.GetDegree() == "Matayomsuksa 6")
                     {   
-                        countforgradetwelve ++;                    
+                        countforMatayomsuksasix ++;                    
                     }
                 }     
             }
-            return countforgradetwelve;
+            return countforMatayomsuksasix;
         }        
     }
 }
